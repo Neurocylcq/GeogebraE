@@ -17,8 +17,10 @@ function openGeogebraDialog(id: string, callback) {
   let dialog = new Dialog({
     title: " ",
     content: `<div id="ggb-element"></div>`,
-    width: this.isMobile ? "92vw" : "720px",
-    height: this.isMobile ? "92vh" : "500px",
+    width: "720px",
+    height: "500px",
+    // width: this.isMobile ? "92vw" : "720px",
+    // height: this.isMobile ? "92vh" : "500px",
   });
 
   const menuHeader = dialog.element.querySelector(".b3-dialog__header") as HTMLElement

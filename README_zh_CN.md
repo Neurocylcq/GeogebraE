@@ -43,6 +43,8 @@ GeoGebra官方网站: https://www.geogebra.org
     <div class="GeogebraE_imgItem" style="background: url('https://gitee.com/biolinua/image-bed/raw/main/GeogebraE/4.png');background-size: cover"></div>
     <div class="GeogebraE_imgItem" style="background: url('https://gitee.com/biolinua/image-bed/raw/main/GeogebraE/5.png');background-size: cover"></div>
 </div>
+(👆可滑动👆)
+
 
 ### 功能键:
 #### Geogebra窗口功能键
