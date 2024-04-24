@@ -36,6 +36,9 @@ GeoGebra官方网站: https://www.geogebra.org
     flex: none;
 }
 </style>
+<script>
+    
+</script>
 <div id="GeogebraE_imgBody">
     <div class="GeogebraE_imgItem" style="background: url('https://gitee.com/biolinua/image-bed/raw/main/GeogebraE/1.gif');background-size: cover"></div>
     <div class="GeogebraE_imgItem" style="background: url('https://gitee.com/biolinua/image-bed/raw/main/GeogebraE/1.png');background-size: cover"></div>
