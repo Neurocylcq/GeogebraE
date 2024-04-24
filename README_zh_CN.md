@@ -37,6 +37,7 @@ GeoGebra官方网站: https://www.geogebra.org
 }
 </style>
 <div id="GeogebraE_imgBody">
+    <div class="GeogebraE_imgItem" style="background: url('https://gitee.com/biolinua/image-bed/raw/main/GeogebraE/1.gif');background-size: cover"></div>
     <div class="GeogebraE_imgItem" style="background: url('https://gitee.com/biolinua/image-bed/raw/main/GeogebraE/1.png');background-size: cover"></div>
     <div class="GeogebraE_imgItem" style="background: url('https://gitee.com/biolinua/image-bed/raw/main/GeogebraE/2.png');background-size: cover"></div>
     <div class="GeogebraE_imgItem" style="background: url('https://gitee.com/biolinua/image-bed/raw/main/GeogebraE/3.png');background-size: cover"></div>
@@ -45,21 +46,22 @@ GeoGebra官方网站: https://www.geogebra.org
 </div>
 (👆可滑动👆)
 
-
 ### 功能键:
 #### Geogebra窗口功能键
 1. Model: 切换模式
 2. Function: 功能菜单
    1. ToImage: 将活动窗口转换为图片，并弹出下载窗口
-   2. InsetBlock: 将活动窗口转换为图片，并插入当前块下方（暂时不支持Scientific模式）
+   2. InsetBlock: 将活动窗口转换为图片，并插入当前块上方（暂时不支持Scientific模式，插入的图片大小取决于你的活动窗口大小）
    3. Reset: 如果出现任何页面缩放问题，请点击这个按钮（没准有用）
-3. FullScreen: 全屏
+3. FullScreen: 全屏或取消全屏（你还可以通过双击菜单栏空白处来全屏）
 
 #### '/'指令功能键
 1. 打开GeogebraE
 
 #### 图片右键菜单功能键
 1. 用GeogebraE打开: 将隐写入geogebra文件信息的图片用geogebra打开. 你可以直接打开用"ToImage"转换的图片, 也可以打开用"InsetBlock"转换的图片
+
+这里'隐写'指的是'隐写术'，直接把正在编辑的geogebra文件通过二进制的形式插入到图片像素中，不过该图片不可被压缩，否则会无法解析geogebra文件信息
 
 **此外，该插件的逻辑是保存图片优先，如果出现任何问题，如程序崩溃，意外退出等，你可以在assets中找到“InsetBlock”的图片，该图片已经过隐写术处理，文件名以“geogebra”为前缀**
 
