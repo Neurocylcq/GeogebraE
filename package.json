@@ -1,0 +1,45 @@
+{
+  "name": "geogebra-embedding",
+  "version": "0.0.9",
+  "type": "module",
+  "description": "",
+  "repository": "",
+  "homepage": "",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "make-link": "node  --no-warnings ./scripts/make_dev_link.js",
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "install": "vite build && node --no-warnings ./scripts/make_install.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "fast-glob": "^3.2.12",
+    "glob": "^7.2.3",
+    "js-yaml": "^4.1.0",
+    "minimist": "^1.2.8",
+    "rollup-plugin-livereload": "^2.0.5",
+    "sass": "^1.63.3",
+    "siyuan": "0.9.4",
+    "svelte": "^3.59.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3",
+    "vite": "^4.5.2",
+    "vite-plugin-static-copy": "^0.15.0",
+    "vite-plugin-zip-pack": "^1.0.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
